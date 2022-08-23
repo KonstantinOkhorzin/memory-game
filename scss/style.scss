@@ -44,7 +44,7 @@ body {
         transform-style: preserve-3d;
         transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         opacity: 1;
-        &_selected {
+        &_flipped {
             transform: rotateY(180deg);
         }
         &_hidden {
